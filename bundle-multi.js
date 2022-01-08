@@ -246,15 +246,18 @@
       colors: ['#5f9e93', '#3d3638', '#733632', '#b66239', '#b0a1a4', '#e3dad2']
     },
     {
-      name: 'tundra3',
+      name: 'Fidenza',
       colors: [
-        '#87c3ca',
-        '#7b7377',
-        '#b2475d',
-        '#7d3e3e',
-        '#eb7f64',
-        '#d9c67a',
-        '#f3f2f2'
+        '#403b3f',
+        '#cd4446',
+        '#f2bc45',
+        '#e9e0d6',
+        '#2fa494',
+        '#87a4aa',
+        '#bbd7c9', 
+        '#c8958b',
+        '#e2c48c', 
+        '#efb4a5',
       ]
     },
     {
@@ -418,7 +421,7 @@
         vertical_chance: 0.6,
         roundness: -15,
         group_size: 0.82,
-        colors: get('Doodles').colors
+        colors: get('Fidenza').colors
       });
 
       for (let i = 0; i < number_of_apparata / row_length; i++) {
